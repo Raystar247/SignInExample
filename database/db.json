@@ -1,0 +1,16 @@
+{
+    "user": [
+        {
+            "id": "0001",
+            "username": "Kanade",
+            "email": "angel@ab.ac.jp",
+            "password": "gu@rdSk1ll"
+        },
+        {
+            "id": "0002",
+            "username": "Yuri",
+            "email": "leader@sss.ac.jp",
+            "password": "yur1pp3"
+        }
+    ]
+}
