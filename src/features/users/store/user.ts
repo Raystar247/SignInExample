@@ -19,6 +19,7 @@ const user = createSlice({
                 if (state.isSignedIn) {
                     state.id = payload.id;
                 }
+                sessionStorage.setItem("userId_", payload.id);
             })
     }
 });
