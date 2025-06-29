@@ -6,7 +6,7 @@ import SignInPage from './features/users/components/SignInPage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import store from './stores'
-import Main from './features/users/components/Main'
+import UserMain from './features/users/components/Main'
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/signin" element={<SignInPage />} />
-          <Route path="/user" element={<Main />} />
+          <Route path="/user" element={<UserMain />} />
         </Routes>
       </BrowserRouter>
       </Provider>
